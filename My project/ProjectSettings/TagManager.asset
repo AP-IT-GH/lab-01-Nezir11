@@ -7,6 +7,8 @@ TagManager:
   - marker
   - Block
   - Goal
+  - Menhir
+  - Destination
   layers:
   - Default
   - TransparentFX
