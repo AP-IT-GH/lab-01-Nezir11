@@ -36,3 +36,8 @@ Tijdens het trainen beweegt de agent in het begin willekeurig. Na meerdere episo
 
 5. Conclusie
 De agent leert via reinforcement learning om eerst het target te zoeken en daarna de groene zone te bereiken. Het beloningssysteem helpt de agent om efficiënt gedrag aan te leren.
+
+6. 
+Unity Technologies. (2023). ML-Agents documentation. https://unity-technologies.github.io/ml-agents/
+Unity Technologies. (n.d.). Unity Learn. https://learn.unity.com/
+OpenAI. (n.d.). Spinning Up in Deep Reinforcement Learning. https://spinningup.openai.com/en/latest/
