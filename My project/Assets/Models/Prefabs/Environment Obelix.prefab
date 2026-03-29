@@ -190,10 +190,10 @@ GameObject:
   - component: {fileID: 8022865670022041288}
   - component: {fileID: 6166851706920297874}
   - component: {fileID: 7349385950142734508}
-  - component: {fileID: 5088622852446770354}
   - component: {fileID: 1978026145681345486}
-  - component: {fileID: 2031694265891910619}
   - component: {fileID: 2539971907770498732}
+  - component: {fileID: 2855152323379419796}
+  - component: {fileID: 1188872718581601950}
   m_Layer: 0
   m_Name: Obelix
   m_TagString: Untagged
@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.Policies.BehaviorParameters
   m_BrainParameters:
-    VectorObservationSize: 1
+    VectorObservationSize: 6
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 2
@@ -326,28 +326,6 @@ MonoBehaviour:
   m_UseChildSensors: 1
   m_UseChildActuators: 1
   m_ObservableAttributeHandling: 0
---- !u!114 &5088622852446770354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6897611770399403985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1385904e3bb1434f841a020a8157ff9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObelixAgent
-  agentParameters:
-    maxStep: 0
-  hasUpgradedFromAgentParameters: 1
-  MaxStep: 0
-  moveSpeed: 5
-  rotateSpeed: 200
-  carryPoint: {fileID: 3385367257290121784}
-  menhir: {fileID: 8063851863870108844}
-  destination: {fileID: 5444480214241940686}
-  spawnRange: 4
 --- !u!54 &1978026145681345486
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -375,20 +353,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &2031694265891910619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6897611770399403985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.DecisionRequester
-  DecisionPeriod: 5
-  TakeActionsBetweenDecisions: 1
 --- !u!114 &2539971907770498732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417,6 +381,44 @@ MonoBehaviour:
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 0
   m_EndVerticalOffset: 0
+--- !u!114 &2855152323379419796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6897611770399403985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a0dd351a7836ee4cb100e3be934907f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObelixAgent2
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 10000
+  menhirPrefab: {fileID: 1751735921420013466}
+  destinationPrefab: {fileID: 7539811680166138122}
+  spawnAmount: 1
+  moveSpeed: 5
+  turnSpeed: 150
+  spawnRange: 4
+  minDistance: 2
+  maxSpawnAttempts: 20
+--- !u!114 &1188872718581601950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6897611770399403985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.DecisionRequester
+  DecisionPeriod: 5
+  TakeActionsBetweenDecisions: 1
 --- !u!1 &7357411299508980474
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +448,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.97449, y: 0, z: -0.07386}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.75, y: 1, z: 1.75}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8295888154719972501}

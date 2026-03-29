@@ -20,7 +20,7 @@ public class ObelixAgent : Agent
 
     public Transform environmentRoot;
 
-    public float spawnRange = 25f;
+    public float spawnRange = 18f; // verdubbeld
 
     private int remainingMenhirs;
     private bool[] destinationUsed;
