@@ -1,4 +1,4 @@
-Obelix AI Navigatie Labo
+Obelix MLAgent
 
 Inleiding
 In dit labo werd een autonome agent (“Obelix”) ontwikkeld en getraind in een Unity-omgeving met behulp van de ML-Agents toolkit. Het doel was om de agent te leren om menhirs te zoeken, op te nemen en correct af te leveren op destinations. De moeilijkheid van de taak werd stapsgewijs verhoogd van één object naar meerdere objecten, zodat het leervermogen, de efficiëntie en het gedrag van de agent geëvalueerd konden worden.
