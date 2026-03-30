@@ -36,19 +36,23 @@ De training werd opgebouwd via curriculum learning. Eerst werd de agent getraind
 Resultaten
 
 De trainingsresultaten werden geanalyseerd met TensorBoard.
-
 Scenario A (1 menhir)
+
 <img width="420" height="430" alt="image" src="https://github.com/user-attachments/assets/2c1d0dc6-6f92-4af0-804a-3ec5c3bfdb00" />
 
 In deze fase leert de agent snel de basis van de taak. De cumulatieve reward stijgt snel van negatieve waarden naar positieve waarden en stabiliseert. De agent begrijpt hoe hij een menhir moet oppakken en afleveren. De episode length blijft relatief laag, wat wijst op efficiënt gedrag.
 
 Scenario B (meerdere menhirs zonder optimalisaties)
-Toon: Cumulative Reward en Episode Length grafieken
+
+<img width="1260" height="452" alt="image" src="https://github.com/user-attachments/assets/3abd6367-945e-41cc-94ba-27e354a9a41c" />
+
 
 Wanneer meerdere objecten worden toegevoegd, wordt de taak duidelijk moeilijker. De cumulatieve reward daalt in het begin en de episode length stijgt sterk. Dit toont aan dat de agent moeite heeft met navigatie en vaak inefficiënt gedrag vertoont, zoals rondlopen zonder doel of vast blijven hangen.
 
 Scenario C (verbeterde agent met direction en shaped rewards)
-Toon: Cumulative Reward, Episode Length, Histogram en Loss grafieken
+
+<img width="1117" height="747" alt="image" src="https://github.com/user-attachments/assets/ebe99734-95d1-4134-8437-467c9f71e9a2" />
+
 
 Na het toevoegen van directionele observaties en extra beloningen is een duidelijke verbetering zichtbaar.
 
