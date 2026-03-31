@@ -18,15 +18,42 @@
                 "auxillary_file_paths": [
                     "results\\Obelix\\Obelix\\Obelix-370872.pt"
                 ]
+            },
+            {
+                "steps": 447419,
+                "file_path": "results\\Obelix\\Obelix\\Obelix-447419.onnx",
+                "reward": 0.5843883168003331,
+                "creation_time": 1774858920.4557273,
+                "auxillary_file_paths": [
+                    "results\\Obelix\\Obelix\\Obelix-447419.pt"
+                ]
+            },
+            {
+                "steps": 499949,
+                "file_path": "results\\Obelix\\Obelix\\Obelix-499949.onnx",
+                "reward": 1.55205133544902,
+                "creation_time": 1774859215.3937304,
+                "auxillary_file_paths": [
+                    "results\\Obelix\\Obelix\\Obelix-499949.pt"
+                ]
+            },
+            {
+                "steps": 500013,
+                "file_path": "results\\Obelix\\Obelix\\Obelix-500013.onnx",
+                "reward": 1.55205133544902,
+                "creation_time": 1774859215.510282,
+                "auxillary_file_paths": [
+                    "results\\Obelix\\Obelix\\Obelix-500013.pt"
+                ]
             }
         ],
         "final_checkpoint": {
-            "steps": 370872,
+            "steps": 500013,
             "file_path": "results\\Obelix\\Obelix.onnx",
-            "reward": 0.37472766730072044,
-            "creation_time": 1774808958.1403015,
+            "reward": 1.55205133544902,
+            "creation_time": 1774859215.510282,
             "auxillary_file_paths": [
-                "results\\Obelix\\Obelix\\Obelix-370872.pt"
+                "results\\Obelix\\Obelix\\Obelix-500013.pt"
             ]
         }
     },
