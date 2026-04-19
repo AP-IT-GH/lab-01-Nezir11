@@ -9,8 +9,8 @@ TagManager:
   - Goal
   - Menhir
   - Destination
-  - Obstacle
-  - Bonus
+  - JumpObstacle
+  - BonusObstacle
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,47 @@
+{
+    "JumperAgent": {
+        "checkpoints": [
+            {
+                "steps": 51019,
+                "file_path": "results\\JumpAgent3\\JumperAgent\\JumperAgent-51019.onnx",
+                "reward": 0.5475473038430484,
+                "creation_time": 1776614213.6231635,
+                "auxillary_file_paths": [
+                    "results\\JumpAgent3\\JumperAgent\\JumperAgent-51019.pt"
+                ]
+            },
+            {
+                "steps": 56172,
+                "file_path": "results\\JumpAgent3\\JumperAgent\\JumperAgent-56172.onnx",
+                "reward": null,
+                "creation_time": 1776614328.6812236,
+                "auxillary_file_paths": [
+                    "results\\JumpAgent3\\JumperAgent\\JumperAgent-56172.pt"
+                ]
+            },
+            {
+                "steps": 65268,
+                "file_path": "results\\JumpAgent3\\JumperAgent\\JumperAgent-65268.onnx",
+                "reward": -0.1307923490146421,
+                "creation_time": 1776614536.6372092,
+                "auxillary_file_paths": [
+                    "results\\JumpAgent3\\JumperAgent\\JumperAgent-65268.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 65268,
+            "file_path": "results\\JumpAgent3\\JumperAgent.onnx",
+            "reward": -0.1307923490146421,
+            "creation_time": 1776614536.6372092,
+            "auxillary_file_paths": [
+                "results\\JumpAgent3\\JumperAgent\\JumperAgent-65268.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
