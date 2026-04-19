@@ -318,7 +318,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 097a414b532ead24a990751dc7faf1a5, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: 3abb2d458a03bdf4eae90b77aed1febe, type: 3}
   m_InferenceDevice: 0
   m_BehaviorType: 0
   m_BehaviorName: Obelix
