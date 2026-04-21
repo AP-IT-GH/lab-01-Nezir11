@@ -90,4 +90,4 @@ In de trainresultaten is te zien dat de grafiek een duidelijke vooruitgang laat 
   Dit laat zien dat de agent betere keuzes begon te maken.
 
 - Tussen de **180k en 200k stappen** bereikt de agent zijn hoogste score van ongeveer **7 punten**.  
-  Dit laat zien dat de agent uiteindelijk een goede strategie heeft geleerd. :contentReference[oaicite:7]{index=7}
+  Dit laat zien dat de agent uiteindelijk een goede strategie heeft geleerd.
