@@ -8,6 +8,8 @@ De objecten moeten in elke episode een andere snelheid hebben. :contentReference
 
 ## Map
 
+![Map](images/map.png)
+
 Ik heb een **Plane** gebruikt als grond met als layer `ground`. Dit wordt gebruikt om te controleren of de agent geland is of op de grond staat.  
 
 Voor de agent heb ik een **Capsule** gebruikt met:
@@ -23,6 +25,8 @@ Voor de agent heb ik een **Capsule** gebruikt met:
 
 ### JumperObstacle
 
+![JumperObstacle](images/jumperobstacle.png)
+
 Dit is het object waarover de agent moet springen.  
 Deze heeft:
 
@@ -30,6 +34,8 @@ Deze heeft:
 - `ObstacleMover` script :contentReference[oaicite:2]{index=2}
 
 ### BonusObstacle
+
+![BonusObstacle](images/bonusobstacle.png)
 
 Dit is het object dat de agent moet oppakken.  
 Deze heeft:
@@ -42,6 +48,8 @@ Deze heeft:
 
 ### JumperAgent Script
 
+![JumperAgent](images/jumperagent.png)
+
 Bevat:
 
 - Jump settings  
@@ -50,12 +58,16 @@ Bevat:
 
 ### ObstacleMover Script
 
+![ObstacleMover](images/obstaclemover.png)
+
 Bevat:
 
 - Snelheid van het object  
 - Wanneer het object vernietigd wordt :contentReference[oaicite:5]{index=5}
 
 ### ObstacleSpawner Script
+
+![ObstacleSpawner](images/obstaclespawner.png)
 
 Bevat:
 
@@ -66,6 +78,8 @@ Bevat:
 
 
 ## Training
+
+![Training](images/training.png)
 
 In de trainresultaten is te zien dat de grafiek een duidelijke vooruitgang laat zien.
 
