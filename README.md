@@ -3,7 +3,7 @@
 ## Doel
 
 De agent moet over de rode objecten springen en de gele objecten oppakken (bonusfunctionaliteit gekozen).  
-De objecten moeten in elke episode een andere snelheid hebben. :contentReference[oaicite:0]{index=0}
+De objecten moeten in elke episode een andere snelheid hebben.
 
 
 ## Map
@@ -18,7 +18,7 @@ Voor de agent heb ik een **Capsule** gebruikt met:
 - Collider  
 - Empty GameObject `CheckGround`  
 - Ray Perceptions  
-- `JumperAgent` script :contentReference[oaicite:1]{index=1}
+- `JumperAgent` script
 
 
 ## Obstacles
@@ -31,7 +31,7 @@ Dit is het object waarover de agent moet springen.
 Deze heeft:
 
 - Collider  
-- `ObstacleMover` script :contentReference[oaicite:2]{index=2}
+- `ObstacleMover` script
 
 ### BonusObstacle
 
@@ -41,7 +41,7 @@ Dit is het object dat de agent moet oppakken.
 Deze heeft:
 
 - Collider  
-- Hetzelfde `ObstacleMover` script :contentReference[oaicite:3]{index=3}
+- Hetzelfde `ObstacleMover` script
 
 
 ## Scripts
@@ -54,7 +54,7 @@ Bevat:
 
 - Jump settings  
 - Ground check  
-- Gebruik van `ObstacleSpawner` script :contentReference[oaicite:4]{index=4}
+- Gebruik van `ObstacleSpawner` script
 
 ### ObstacleMover Script
 
@@ -63,7 +63,7 @@ Bevat:
 Bevat:
 
 - Snelheid van het object  
-- Wanneer het object vernietigd wordt :contentReference[oaicite:5]{index=5}
+- Wanneer het object vernietigd wordt
 
 ### ObstacleSpawner Script
 
@@ -74,7 +74,7 @@ Bevat:
 - Spawnlogica  
 - Timing van objecten  
 - Spawn delay zodat objecten niet te snel achter elkaar spawnen  
-- Minimale en maximale snelheid van objecten (moet variëren) :contentReference[oaicite:6]{index=6}
+- Minimale en maximale snelheid van objecten (moet variëren)
 
 
 ## Training
