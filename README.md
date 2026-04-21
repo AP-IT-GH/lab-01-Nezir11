@@ -10,15 +10,15 @@ De objecten moeten in elke episode een andere snelheid hebben.
 
 ![Map](images/map.png)
 
-Ik heb een **Plane** gebruikt als grond met als layer `ground`. Dit wordt gebruikt om te controleren of de agent geland is of op de grond staat.  
+Ik heb een **Plane** gebruikt als grond met als layer **ground**. Dit wordt gebruikt om te controleren of de agent geland is of op de grond staat.  
 
 Voor de agent heb ik een **Capsule** gebruikt met:
 
 - Rigidbody  
 - Collider  
-- Empty GameObject `CheckGround`  
+- Empty GameObject **CheckGround**  
 - Ray Perceptions  
-- `JumperAgent` script
+- **JumperAgent** script
 
 
 ## Obstacles
@@ -31,7 +31,7 @@ Dit is het object waarover de agent moet springen.
 Deze heeft:
 
 - Collider  
-- `ObstacleMover` script
+- **ObstacleMover** script
 
 ### BonusObstacle
 
@@ -41,7 +41,7 @@ Dit is het object dat de agent moet oppakken.
 Deze heeft:
 
 - Collider  
-- Hetzelfde `ObstacleMover` script
+- Hetzelfde **ObstacleMover** script
 
 
 ## Scripts
@@ -54,7 +54,7 @@ Bevat:
 
 - Jump settings  
 - Ground check  
-- Gebruik van `ObstacleSpawner` script
+- Gebruik van **ObstacleSpawner** script
 
 ### ObstacleMover Script
 
